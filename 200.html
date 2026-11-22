@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 256x256" />
+		<link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192" />
+		<link rel="icon" type="image/png" href="/favicon-512.png" sizes="512x512" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link href="/_app/immutable/entry/start.DrpId9Kv.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/payload.DSmR2FwN.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DclECHGd.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CtHaOHP6.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/GdIrEZz-.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BmTrUk3y.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/B-KlLog2.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/B2iQDiJ5.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BNCW2e2U.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/app.BlWrWTxX.js" rel="modulepreload">
+		<link href="/_app/immutable/nodes/0.ndE5-kRi.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/XKyaHtl9.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/7pTOSWwf.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/ckFhB96F.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/tgBLThx4.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/kCfDnXxn.js" rel="modulepreload">
+		
+		<link href="/_app/immutable/assets/0.DkXdZwgT.css" rel="stylesheet">
+		<!-- Inline script to apply saved theme and album covers before first paint, preventing flash.
+		     Placed after %sveltekit.head% so the ddp-site-id meta tag (injected by +layout.svelte)
+		     is already in the DOM when this script reads it — ensuring we only set CSS vars for
+		     the current build's cover URLs and never fetch stale files from a previous build. -->
+		<script>
+			(function () {
+				var themeMeta = document.querySelector('meta[name="ddp-default-theme"]');
+				var defaultTheme = (themeMeta && themeMeta.getAttribute('content')) || 'dark';
+				var theme = localStorage.getItem('ddp_theme') || defaultTheme;
+				document.documentElement.setAttribute('data-theme', theme);
+				try {
+					// Read siteId from the pre-rendered meta tag, not from localStorage.
+					// This guarantees we always use the current build's siteId, even on the first
+					// load after switching builds (when localStorage still has the old siteId).
+					var meta = document.querySelector('meta[name="ddp-site-id"]');
+					var siteId = meta && meta.getAttribute('content');
+					if (siteId) {
+						var prefix = 'ddp_cover_' + siteId + '_';
+						for (var i = 0; i < localStorage.length; i++) {
+							var k = localStorage.key(i);
+							if (k && k.startsWith(prefix)) {
+								var url = localStorage.getItem(k);
+								if (url) {
+									var slug = k.slice(prefix.length);
+									document.documentElement.style.setProperty(
+										'--ddp-cover-' + slug,
+										'url("' + url.replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '")'
+									);
+									// Hide the lock icon for this album on first paint — the cover shows instead.
+									document.documentElement.style.setProperty('--ddp-icon-vis-' + slug, 'hidden');
+								}
+							}
+						}
+					}
+				} catch (e) {}
+			})();
+		</script>
+	</head>
+	<body style="margin: 0" data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_f04p75 = {
+						base: "",
+						version: "1795318915494"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					import("/_app/immutable/entry/start.DrpId9Kv.js").then(async (kit) => {
+						kit.init(__sveltekit_f04p75);
+						const app = await import("/_app/immutable/entry/app.BlWrWTxX.js");
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

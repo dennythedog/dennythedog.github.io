@@ -1,0 +1,149 @@
+{
+  "slug": "mission-peak-2023-09-10",
+  "title": "Mission Peak · Sep 10, 2023",
+  "dateSpan": "Sep 2023",
+  "cover": "grid/IMG_7475.webp",
+  "coverVersion": "af2d27b5",
+  "photos": [
+    {
+      "id": "img_7475",
+      "fileName": "IMG_7475.JPG",
+      "sourcePath": "mission-peak-2023-09-10/IMG_7475.JPG",
+      "width": 4032,
+      "height": 3024,
+      "orientation": "landscape",
+      "datetime": "2023-09-10T04:03:56Z",
+      "src": {
+        "grid": "grid/IMG_7475.webp",
+        "full": "full/IMG_7475.webp"
+      },
+      "version": "af2d27b5"
+    },
+    {
+      "id": "img_7482",
+      "fileName": "IMG_7482.JPG",
+      "sourcePath": "mission-peak-2023-09-10/IMG_7482.JPG",
+      "width": 4032,
+      "height": 3024,
+      "orientation": "landscape",
+      "datetime": "2023-09-10T04:58:48Z",
+      "src": {
+        "grid": "grid/IMG_7482.webp",
+        "full": "full/IMG_7482.webp"
+      },
+      "version": "9f0653cc"
+    },
+    {
+      "id": "img_7484",
+      "fileName": "IMG_7484.JPG",
+      "sourcePath": "mission-peak-2023-09-10/IMG_7484.JPG",
+      "width": 4032,
+      "height": 3024,
+      "orientation": "landscape",
+      "datetime": "2023-09-10T04:59:11Z",
+      "src": {
+        "grid": "grid/IMG_7484.webp",
+        "full": "full/IMG_7484.webp"
+      },
+      "version": "6035a278"
+    },
+    {
+      "id": "img_7489",
+      "fileName": "IMG_7489.jpg",
+      "sourcePath": "mission-peak-2023-09-10/IMG_7489.jpg",
+      "width": 3630,
+      "height": 2722,
+      "orientation": "landscape",
+      "datetime": "2023-09-10T05:10:34Z",
+      "src": {
+        "grid": "grid/IMG_7489.webp",
+        "full": "full/IMG_7489.webp"
+      },
+      "version": "b72b236d"
+    },
+    {
+      "id": "img_7491",
+      "fileName": "IMG_7491.JPG",
+      "sourcePath": "mission-peak-2023-09-10/IMG_7491.JPG",
+      "width": 4032,
+      "height": 3024,
+      "orientation": "landscape",
+      "datetime": "2023-09-10T05:10:51Z",
+      "src": {
+        "grid": "grid/IMG_7491.webp",
+        "full": "full/IMG_7491.webp"
+      },
+      "version": "e53ab48d"
+    },
+    {
+      "id": "img_7492",
+      "fileName": "IMG_7492.JPG",
+      "sourcePath": "mission-peak-2023-09-10/IMG_7492.JPG",
+      "width": 4032,
+      "height": 3024,
+      "orientation": "landscape",
+      "datetime": "2023-09-10T05:11:54Z",
+      "src": {
+        "grid": "grid/IMG_7492.webp",
+        "full": "full/IMG_7492.webp"
+      },
+      "version": "f4a4bc1c"
+    },
+    {
+      "id": "img_7493",
+      "fileName": "IMG_7493.JPG",
+      "sourcePath": "mission-peak-2023-09-10/IMG_7493.JPG",
+      "width": 4032,
+      "height": 3024,
+      "orientation": "landscape",
+      "datetime": "2023-09-10T05:12:33Z",
+      "src": {
+        "grid": "grid/IMG_7493.webp",
+        "full": "full/IMG_7493.webp"
+      },
+      "version": "56599894"
+    },
+    {
+      "id": "img_7494",
+      "fileName": "IMG_7494.JPG",
+      "sourcePath": "mission-peak-2023-09-10/IMG_7494.JPG",
+      "width": 4032,
+      "height": 3024,
+      "orientation": "landscape",
+      "datetime": "2023-09-10T05:50:52Z",
+      "src": {
+        "grid": "grid/IMG_7494.webp",
+        "full": "full/IMG_7494.webp"
+      },
+      "version": "c83c6d09"
+    },
+    {
+      "id": "img_7495",
+      "fileName": "IMG_7495.jpg",
+      "sourcePath": "mission-peak-2023-09-10/IMG_7495.jpg",
+      "width": 3840,
+      "height": 2880,
+      "orientation": "landscape",
+      "datetime": "2023-09-10T05:51:14Z",
+      "src": {
+        "grid": "grid/IMG_7495.webp",
+        "full": "full/IMG_7495.webp"
+      },
+      "version": "c4bd7ef1"
+    },
+    {
+      "id": "img_7497",
+      "fileName": "IMG_7497.jpg",
+      "sourcePath": "mission-peak-2023-09-10/IMG_7497.jpg",
+      "width": 3827,
+      "height": 2870,
+      "orientation": "landscape",
+      "datetime": "2023-09-10T05:51:35Z",
+      "src": {
+        "grid": "grid/IMG_7497.webp",
+        "full": "full/IMG_7497.webp"
+      },
+      "version": "e5b6d9f6"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+##
+## Configure apache to serve up albums like https://photos.example.com/albums/europe,
+## which uses europe.html.  A trailing slash is redirected to remove it.
+##
+
+ErrorDocument 404 /404.html
+
+# Everything revalidates on every request by default: HTML, JSON and covers can change
+# in-place. HTML matters most. A browser left to guess would keep an old page for days
+# after a deploy, and that page's scripts are deleted by the deploy, so it never hydrates.
+# SvelteKit content-hashes everything under /_app/immutable/, so those are immutable.
+# WebP photos and MP4 videos keep their names when photogen regenerates them, but the
+# site requests them with a ?v= version from index.json that changes when it does, so
+# they are immutable too. The two overrides win because Apache merges <FilesMatch> and
+# <If> after the directory default.
+Header set Cache-Control "no-cache"
+<FilesMatch "\.(webp|mp4)$">
+    Header set Cache-Control "max-age=31536000, immutable"
+</FilesMatch>
+<If "%{REQUEST_URI} =~ m#^/_app/immutable/#">
+    Header set Cache-Control "max-age=31536000, immutable"
+</If>
+
+DirectorySlash Off
+RewriteEngine On
+
+# Redirect trailing slashes to non-trailing slash version
+RewriteCond %{REQUEST_URI} !^/$
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# Handle the specific case where a directory exists but we want the .html file
+RewriteCond %{REQUEST_URI} !\.html$
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}.html -f
+RewriteRule ^(.+)$ $1.html [L,QSA]
+
+# Serve album page for photo permalink URLs: /albums/slug/N -> /albums/slug.html
+# SvelteKit only prebuilds albums/slug.html; the JS reads the path and opens the lightbox.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^albums/([^/]+)/(\d+)$ /albums/$1.html [L]

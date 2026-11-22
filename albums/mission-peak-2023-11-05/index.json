@@ -1,0 +1,149 @@
+{
+  "slug": "mission-peak-2023-11-05",
+  "title": "Mission Peak · Nov 5, 2023",
+  "dateSpan": "Nov 2023",
+  "cover": "grid/IMG_2229.webp",
+  "coverVersion": "e8b3acfc",
+  "photos": [
+    {
+      "id": "img_2229",
+      "fileName": "IMG_2229.JPG",
+      "sourcePath": "mission-peak-2023-11-05/IMG_2229.JPG",
+      "width": 4032,
+      "height": 3024,
+      "orientation": "landscape",
+      "datetime": "2023-11-05T05:56:45Z",
+      "src": {
+        "grid": "grid/IMG_2229.webp",
+        "full": "full/IMG_2229.webp"
+      },
+      "version": "e8b3acfc"
+    },
+    {
+      "id": "img_2231",
+      "fileName": "IMG_2231.jpg",
+      "sourcePath": "mission-peak-2023-11-05/IMG_2231.jpg",
+      "width": 4032,
+      "height": 3024,
+      "orientation": "landscape",
+      "datetime": "2023-11-05T05:58:17Z",
+      "src": {
+        "grid": "grid/IMG_2231.webp",
+        "full": "full/IMG_2231.webp"
+      },
+      "version": "0d290866"
+    },
+    {
+      "id": "img_2233",
+      "fileName": "IMG_2233.JPG",
+      "sourcePath": "mission-peak-2023-11-05/IMG_2233.JPG",
+      "width": 4032,
+      "height": 3024,
+      "orientation": "landscape",
+      "datetime": "2023-11-05T05:58:35Z",
+      "src": {
+        "grid": "grid/IMG_2233.webp",
+        "full": "full/IMG_2233.webp"
+      },
+      "version": "e294baeb"
+    },
+    {
+      "id": "img_2234",
+      "fileName": "IMG_2234.JPG",
+      "sourcePath": "mission-peak-2023-11-05/IMG_2234.JPG",
+      "width": 5712,
+      "height": 4284,
+      "orientation": "landscape",
+      "datetime": "2023-11-05T06:01:56Z",
+      "src": {
+        "grid": "grid/IMG_2234.webp",
+        "full": "full/IMG_2234.webp"
+      },
+      "version": "796c0cc4"
+    },
+    {
+      "id": "img_2235",
+      "fileName": "IMG_2235.JPG",
+      "sourcePath": "mission-peak-2023-11-05/IMG_2235.JPG",
+      "width": 3841,
+      "height": 2881,
+      "orientation": "landscape",
+      "datetime": "2023-11-05T06:04:26Z",
+      "src": {
+        "grid": "grid/IMG_2235.webp",
+        "full": "full/IMG_2235.webp"
+      },
+      "version": "1545281c"
+    },
+    {
+      "id": "img_2236",
+      "fileName": "IMG_2236.JPG",
+      "sourcePath": "mission-peak-2023-11-05/IMG_2236.JPG",
+      "width": 4032,
+      "height": 3024,
+      "orientation": "landscape",
+      "datetime": "2023-11-05T06:04:30Z",
+      "src": {
+        "grid": "grid/IMG_2236.webp",
+        "full": "full/IMG_2236.webp"
+      },
+      "version": "2c2614be"
+    },
+    {
+      "id": "img_2240",
+      "fileName": "IMG_2240.JPG",
+      "sourcePath": "mission-peak-2023-11-05/IMG_2240.JPG",
+      "width": 5712,
+      "height": 4284,
+      "orientation": "landscape",
+      "datetime": "2023-11-05T06:09:42Z",
+      "src": {
+        "grid": "grid/IMG_2240.webp",
+        "full": "full/IMG_2240.webp"
+      },
+      "version": "2147f9f1"
+    },
+    {
+      "id": "img_2241",
+      "fileName": "IMG_2241.JPG",
+      "sourcePath": "mission-peak-2023-11-05/IMG_2241.JPG",
+      "width": 5712,
+      "height": 4284,
+      "orientation": "landscape",
+      "datetime": "2023-11-05T06:09:44Z",
+      "src": {
+        "grid": "grid/IMG_2241.webp",
+        "full": "full/IMG_2241.webp"
+      },
+      "version": "6e535c72"
+    },
+    {
+      "id": "img_2243",
+      "fileName": "IMG_2243.JPG",
+      "sourcePath": "mission-peak-2023-11-05/IMG_2243.JPG",
+      "width": 3855,
+      "height": 2891,
+      "orientation": "landscape",
+      "datetime": "2023-11-05T06:14:28Z",
+      "src": {
+        "grid": "grid/IMG_2243.webp",
+        "full": "full/IMG_2243.webp"
+      },
+      "version": "8f6ec735"
+    },
+    {
+      "id": "img_2244",
+      "fileName": "IMG_2244.JPG",
+      "sourcePath": "mission-peak-2023-11-05/IMG_2244.JPG",
+      "width": 5712,
+      "height": 4284,
+      "orientation": "landscape",
+      "datetime": "2023-11-05T06:16:38Z",
+      "src": {
+        "grid": "grid/IMG_2244.webp",
+        "full": "full/IMG_2244.webp"
+      },
+      "version": "da158e03"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "siteId": "denny",
+  "albumsFile": "albums.json",
+  "siteName": "Denny",
+  "siteUrl": "https://dennythedog.github.io",
+  "siteDescription": "Photo albums of Denny",
+  "copyrightOwner": "Denny's family",
+  "copyrightYear": 2023,
+  "defaultTheme": "light"
+}

@@ -1,0 +1,1 @@
+import{n as e}from"../chunks/XKyaHtl9.js";import"../chunks/B2iQDiJ5.js";import"../chunks/tgBLThx4.js";import{t}from"../chunks/BPFnFvpi.js";var n=e({load:()=>r,prerender:()=>!0});async function r({parent:e}){let{siteConfig:t}=await e();return{siteConfig:t}}function i(e){t(e,{status:404})}export{i as component,n as universal};
