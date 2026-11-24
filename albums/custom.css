@@ -1,9 +1,0 @@
-/* Denny's site: quiet footer.
-   No copyright line; the "Built with ... DD Photos · Privacy" text is hidden,
-   but the small (i) About button stays — it shows the DD Photos credit and
-   source link the AGPL licence asks the site to keep. */
-footer > div:first-child { display: none; }
-footer .built-with { font-size: 0; }
-footer .built-with a { display: none; }
-footer .built-with .about-btn { font-size: 1rem; opacity: 0.45; }
-footer .built-with .about-btn:hover { opacity: 0.9; }
